@@ -1,0 +1,20 @@
+# Site settings
+title: Codeaholics - The Hong Kong Coding Community
+description: >
+  Codeaholics is a community of passionate programmers in Hong Kong.
+  We hold monthly meetups, aiming to share our skills and passion.
+
+url: "http://codeaholics.io"
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [local]
