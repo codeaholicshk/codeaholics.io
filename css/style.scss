@@ -26,7 +26,8 @@ $light: #FFF;
 $dark: #000;
 $grey: #aaa;
 $lightgrey: #E3E3E3;
-$green: rgb(0, 128, 0);
+$green: lime;
+$green-dark: green;
 
 
 html, body {
@@ -172,8 +173,8 @@ h1, h2 {
 .bg1 {
 	background:
 	url(../images/background.jpg),
-	linear-gradient($green 0%, $black 100%),
-	linear-gradient(to right, $green 0%, $black 100%);
+	linear-gradient($green-dark 0%, $black 100%),
+	linear-gradient(to right, $green-dark 0%, $black 100%);
   background-size: cover;
 	background-position: center;
 }
